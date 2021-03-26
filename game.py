@@ -23,6 +23,6 @@ class SpaceRocks:
 
     def _draw(self):
         self.screen.fill((0, 0, 255))
-        py.game.display.flip()
+        pygame.display.flip()
         
 
